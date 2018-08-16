@@ -1,0 +1,310 @@
+.main {
+
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: #545454;
+}
+
+a:hover{
+	color: #a292b3;
+}
+.content p a {
+	font: 13px 'Segoe UI', sans-serif;
+	color: #82699d;
+	font-style: italic;
+	float: right;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-right: 17px;
+	margin-top: 2em;
+	
+}
+.content p a:after {
+	content: '';
+	width: 11px;
+	height: 7px;
+	background: url(../images/arrow.png) no-repeat;
+	position: absolute;
+	top: 7px;
+	right: 0;
+	}
+
+h1, h2, h3, h4 , h5{
+	font-family:'Segoe UI', sans-serif;
+	color: #505051;
+	font-weight: bold;
+	margin: 0 0 1em;
+	line-height: 1.15;
+
+}
+h1 {
+	font-size: 28px;
+	text-align: center;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-size: 23px;
+	color: #000000;
+	font-weight: 400;
+	text-align: center;
+}
+h3 span{
+	font-weight: bold;
+	color: #000000;
+	font-size: 23px;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 400;
+}
+hr {
+	background: #e6e6e6 url(../images/line.png) repeat-x;
+	height: 5px;
+	margin-bottom: 41px;
+	width: 180px;
+	color:#fff;
+	text-align: center;
+	border: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	font: 17px 'Segoe UI', sans-serif;
+	color: #838383;
+	line-height: 1.2;
+}
+ul, ol {
+	font: 17px 'Segoe UI', sans-serif;
+	color: #838383;
+	overflow: hidden;
+	line-height: 28px;
+	padding: 0 0 0 2.6em; 
+  }
+ 
+table {
+	border-collapse: collapse; 
+  }
+td, th {
+	border: 1px solid #ccc;
+	padding: 18px 22px; 
+	font: 17px 'Segoe UI', sans-serif;
+ 	color: #838383;
+	line-height: 28px;
+  }
+  
+th {
+	background: #dbe9f2;
+}
+span {
+	font: 17px 'Segoe UI', sans-serif;
+	color: #838383;
+	line-height: 28px;
+}
+.top_line{
+	height: 8px;
+	width: 100%;
+	background-color: #a292b3;
+}
+
+.bottom-fon {
+	width: 100%;
+	height: 67px;
+	background: url(../images/bg.png) repeat-x;
+}
+
+#content {
+	max-width: 1020px;
+	margin: 0 auto;
+	margin-bottom: -67px;
+	padding: 0 10px;
+	/*box-shadow: 0px 0px 50px rgba(0,0,0,0.3);*/
+}
+.header {
+	height: 129px;
+	width: 100%;
+	position: relative;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo {
+	/*padding-top: 31px;*/
+
+    top: 28px;
+    display: inline-block;
+	width: 182px;
+	flex: none;
+}
+
+.logo img {
+	float: left;
+	margin-right: 16px;
+}
+
+#site_name{
+	font-size: 31px;
+	font-family: Arial;
+	color: #ac9ebb;
+	display: inline-block;
+	padding-top: 20px;
+	margin: 0px;
+
+}
+.top_nav {
+	width: calc(100% - 382px);
+	flex: none;
+	font-family: Segoe UI;
+	font-size: 17px;
+	margin-left: 200px;
+	text-align: right;
+}
+
+.top_nav div {
+	display: inline-block;
+	margin: 0 15px;
+	line-height: 2;
+
+}
+.top_nav div:last-child {
+	margin-right: 0px;
+
+}
+.content {
+ padding: 0 10px;
+}
+@font-face {
+	font-family: 'StRydeRegular'; /* Гарнитура шрифта */
+    src: url(../fonts/StRyde-Regular.otf); /* Путь к файлу со шрифтом */
+   
+}
+@font-face {
+	 font-family: 'SofiaProLight'; 
+    src: url(../fonts/SofiaProLight.otf);
+}
+
+.prev {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.main_text {
+	text-align: center;
+	font: 23px 'Segoe UI', sans-serif;
+	font-style: italic;
+	padding: 1em;
+	word-wrap: break-word;
+	color: #494848;
+}
+.main_text span {
+	color: #82699d;
+	font-weight: bold;
+	font-size: 23px;
+	font-style: italic;
+}
+.about {
+	text-align:center;
+	margin-bottom: 41px;
+}
+
+.about img{
+	
+}
+.about_text {
+	display: block;
+	
+}
+.about_text img {
+	width: 200px;
+    height: 200px;
+}
+.about_text p {
+	text-align: justify;
+}
+.education {
+	margin-bottom: 41px;
+}
+
+.education_text {
+	
+}
+.ed_list {
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+}
+.col1 {
+	display: inline-block;
+	width: 25%;
+
+}
+.col1 h2 {
+	text-align: center;
+}
+
+.skil_block {
+	margin-bottom: 41px;
+
+}
+.skil_block div {
+	display: inline-block;
+
+}
+
+.skil_block div span {
+    margin: 0 10px 10px 10px;
+	padding: 8px 8px;
+	display: inline-block;
+	background: #f5f5f5;
+	line-height: 1;
+
+}
+
+.contact table {
+	width: 100%;
+	border: 1px solid #e4e4e4; 
+	margin-top: 43px;
+	margin-bottom: 60px;
+	background: #f5f5f5;
+}
+.contact table td {
+	padding: 21px 30px 21px 30px;
+	border: 1px solid #e4e4e4;
+	text-align: center;
+ 
+}
+.contact table td a{ 
+	display: block;
+}
+.contact p {
+	text-align: center;
+}
+
+
+.footer {
+	height: 67px;
+}
+.footer_ins {
+	margin: 0 auto;
+	height: 67px;
+}
+
+.footer_ins p {
+	color: #454242;
+	float: left;
+	margin-top: 21px;
+
+}
+.footer_ins img {
+	float: right;
+	margin-left: 22px;
+	margin-top: 21px;
+}
