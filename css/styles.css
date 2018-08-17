@@ -1,3 +1,7 @@
+@font-face {
+	 font-family: 'SegoeUI'; 
+    src: url(../fonts/SegoeUIRegular.woff);
+}
 .main {
 
 	margin: 0px;
@@ -179,15 +183,6 @@ span {
 .content {
  padding: 0 10px;
 }
-@font-face {
-	font-family: 'StRydeRegular'; /* Гарнитура шрифта */
-    src: url(../fonts/StRyde-Regular.otf); /* Путь к файлу со шрифтом */
-   
-}
-@font-face {
-	 font-family: 'SofiaProLight'; 
-    src: url(../fonts/SofiaProLight.otf);
-}
 
 .prev {
 	margin-top: 40px;
@@ -215,9 +210,6 @@ span {
 	margin-bottom: 41px;
 }
 
-.about img{
-	
-}
 .about_text {
 	display: block;
 	
@@ -233,9 +225,6 @@ span {
 	margin-bottom: 41px;
 }
 
-.education_text {
-	
-}
 .ed_list {
     display: flex;
     flex-direction: row;
