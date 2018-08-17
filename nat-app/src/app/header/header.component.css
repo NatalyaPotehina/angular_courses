@@ -1,0 +1,55 @@
+.header {
+  height: 129px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  /*padding-top: 31px;*/
+
+  top: 28px;
+  display: inline-block;
+  width: 182px;
+  flex: none;
+}
+
+.logo img {
+  float: left;
+  margin-right: 16px;
+}
+
+#site_name{
+  font-size: 31px;
+  font-family: Arial;
+  color: #ac9ebb;
+  display: inline-block;
+  padding-top: 20px;
+  margin: 0px;
+
+}
+.top_nav {
+  width: calc(100% - 382px);
+  flex: none;
+  font-family: Segoe UI;
+  font-size: 17px;
+  margin-left: 200px;
+  text-align: right;
+}
+
+.top_nav div {
+  display: inline-block;
+  margin: 0 15px;
+  line-height: 2;
+
+}
+.top_nav div:last-child {
+  margin-right: 0px;
+
+}
+
+.top_nav div img {
+  margin-right: 5px;
+}

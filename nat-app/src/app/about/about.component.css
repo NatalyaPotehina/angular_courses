@@ -1,0 +1,36 @@
+.about {
+  text-align:center;
+  margin-bottom: 41px;
+}
+
+.about_text {
+  display: block;
+
+}
+.about_text img {
+  width: 200px;
+  height: 200px;
+}
+.about_text p {
+  text-align: justify;
+}
+p a {
+  font: 13px 'Segoe UI', sans-serif;
+  color: #82699d;
+  font-style: italic;
+  float: right;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-right: 17px;
+  margin-top: 2em;
+
+}
+p a:after {
+  content: '';
+  width: 11px;
+  height: 7px;
+  background: url(/assets/images/arrow.png) no-repeat;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}

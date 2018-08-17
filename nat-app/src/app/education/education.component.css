@@ -1,0 +1,17 @@
+.education {
+  margin-bottom: 41px;
+}
+
+.ed_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col1 {
+  display: inline-block;
+  width: 25%;
+
+}
+.col1 h2 {
+  text-align: center;
+}
