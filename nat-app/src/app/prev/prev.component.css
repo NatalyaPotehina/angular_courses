@@ -1,0 +1,21 @@
+.prev {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.main_text {
+  text-align: center;
+  font: 23px 'Segoe UI', sans-serif;
+  font-style: italic;
+  padding: 1em;
+  word-wrap: break-word;
+  color: #494848;
+}
+.main_text span {
+  color: #82699d;
+  font-weight: bold;
+  font-size: 23px;
+  font-style: italic;
+}
