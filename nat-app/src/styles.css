@@ -48,7 +48,7 @@ h4 {
   font-weight: 400;
 }
 hr {
-  background: #e6e6e6 url(/images/line.png) repeat-x;
+  background: #e6e6e6 url(assets/images/line.png) repeat-x;
   height: 5px;
   margin-bottom: 41px;
   width: 180px;
@@ -97,7 +97,7 @@ span {
 .bottom-fon {
   width: 100%;
   height: 67px;
-  background: url(/assets/bg.png) repeat-x;
+  background: url(assets/bg.png) repeat-x;
 }
 
 #content {
