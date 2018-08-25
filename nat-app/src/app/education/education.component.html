@@ -1,0 +1,30 @@
+<div class="education">
+  <div class="education_text">
+    <h1><a name="education"></a>Образование</h1>
+    <hr>
+    <div class="ed_list">
+      <div class="col1">
+        <h2>Основное</h2>
+        <ul>
+          <li>{{mainEducation.mainYear|date:'yyyy'}} {{mainEducation.mainInst}}</li>
+          <li>{{mainEducation.mainSpecialty}}</li>
+        </ul>
+      </div>
+      <div class="col1">
+        <h2>Дополнительное</h2>
+        <ul>
+          <li>{{addEducation.addYear|date:'yyyy'}} ИКИТ СФУ</li>
+          <li>{{addEducation.addSpecialty}}</li>
+        </ul>
+      </div>
+      <div class="col1">
+        <h2>Курсы</h2>
+        <ul>
+          <li>{{course.courseYear|date:'yyyy'}} {{course.courseInst}}</li>
+          <li>{{course.courseSpecialty}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
