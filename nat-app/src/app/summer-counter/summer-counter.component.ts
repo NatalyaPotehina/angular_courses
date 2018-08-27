@@ -17,6 +17,7 @@ export class SummerCounterComponent implements OnInit, OnDestroy {
   difference: number;
   difdate: number;
 
+
   constructor() {
   }
 
@@ -26,10 +27,10 @@ export class SummerCounterComponent implements OnInit, OnDestroy {
       this.endDate = new Date(2018, 8, 1, 0, 0, 0);
 
       this.difference = this.endDate.valueOf() - this.currentDate.valueOf();
-      this.sec = Math.floor( (this.difference) / 1000 % 60 );
-      this.min = Math.floor( (this.difference / 1000 / 60) % 60 );
-      this.hours = Math.floor( (this.difference / ( 1000 * 60 * 60 )) % 24 );
-      this.days = Math.floor( this.difference / ( 1000 * 60 * 60 * 24 ) );
+      this.sec = Math.floor((this.difference) / 1000 % 60);
+      this.min = Math.floor((this.difference / 1000 / 60) % 60);
+      this.hours = Math.floor((this.difference / (1000 * 60 * 60)) % 24);
+      this.days = Math.floor(this.difference / (1000 * 60 * 60 * 24));
     }, 1000);
 
   }
