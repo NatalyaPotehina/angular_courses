@@ -24,18 +24,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="14" />
-          <entry key="html" value="25" />
+          <entry key="css" value="15" />
+          <entry key="html" value="26" />
           <entry key="json" value="1" />
-          <entry key="ts" value="52" />
+          <entry key="ts" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
-          <entry key="HTML" value="25" />
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="26" />
           <entry key="JSON" value="1" />
-          <entry key="TypeScript" value="52" />
+          <entry key="TypeScript" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -47,17 +47,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="182" />
-          <entry key="html" value="873" />
-          <entry key="ts" value="4735" />
+          <entry key="html" value="909" />
+          <entry key="ts" value="4945" />
           <entry key="txt" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="182" />
-          <entry key="HTML" value="873" />
+          <entry key="HTML" value="909" />
           <entry key="PLAIN_TEXT" value="111" />
-          <entry key="TypeScript" value="4735" />
+          <entry key="TypeScript" value="4945" />
         </counts>
       </usages-collector>
     </session>
@@ -65,19 +65,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nat-app/src/app/summer-counter/summer-counter.component.ts">
+        <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/skill.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nat-app/src/app/summer-counter/summer-counter.component.html">
+        <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/skill.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -109,11 +109,15 @@
         <option value="$PROJECT_DIR$/nat-app/src/styles.css" />
         <option value="$PROJECT_DIR$/nat-app/src/app/about/about.component.html" />
         <option value="$PROJECT_DIR$/nat-app/src/app/summer-counter/summer-counter.ts" />
-        <option value="$PROJECT_DIR$/nat-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/nat-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/nat-app/src/app/summer-counter/summer-counter.component.css" />
         <option value="$PROJECT_DIR$/nat-app/src/app/summer-counter/summer-counter.component.ts" />
         <option value="$PROJECT_DIR$/nat-app/src/app/summer-counter/summer-counter.component.html" />
+        <option value="$PROJECT_DIR$/nat-app/src/app/skill/skill.component.css" />
+        <option value="$PROJECT_DIR$/nat-app/src/app/skill/add-skill.ts" />
+        <option value="$PROJECT_DIR$/nat-app/src/app/skill/skill.component.html" />
+        <option value="$PROJECT_DIR$/nat-app/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/nat-app/src/app/skill/skill.component.ts" />
       </list>
     </option>
   </component>
@@ -385,10 +389,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="605" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1196" />
-    <option name="height" value="671" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -429,15 +433,7 @@
               <item name="nat-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular_courses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular_courses" type="462c0819:PsiDirectoryNode" />
-              <item name="nat-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="summer-counter" type="462c0819:PsiDirectoryNode" />
+              <item name="skill" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -449,8 +445,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535091896981" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/2018.angular.unit4-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535365223502" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/2018.angular.unit5-master" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\OpenServer\domains\localhost\angular_courses\nat-app\node_modules\tslint" />
@@ -490,18 +486,18 @@
       <workItem from="1535088809953" duration="3121000" />
       <workItem from="1535092084297" duration="16388000" />
       <workItem from="1535216090078" duration="1443000" />
-      <workItem from="1535343075274" duration="6150000" />
+      <workItem from="1535343075274" duration="17048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66349000" />
+    <option name="totallyTimeSpent" value="77247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -509,7 +505,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3226152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -581,16 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/skill.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/skill.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -751,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nat-app/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nat-app/src/app/summer-counter/summer-counter.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -769,6 +748,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/skill.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nat-app/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/skill.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/add-skill.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nat-app/src/app/skill/skill.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

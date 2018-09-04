@@ -9,6 +9,7 @@ import { SkillComponent } from './skill/skill.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { SummerCounterComponent } from './summer-counter/summer-counter.component';
+import {FormsModule} from '@angular/forms';
 
 
 
@@ -27,7 +28,8 @@ import { SummerCounterComponent } from './summer-counter/summer-counter.componen
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
