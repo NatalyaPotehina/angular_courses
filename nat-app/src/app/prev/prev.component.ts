@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Prev} from './prev';
 
 @Component({
   selector: 'app-prev',
@@ -6,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prev.component.css']
 })
 export class PrevComponent implements OnInit {
+  prev: Prev;
 
-  constructor() { }
+  constructor() {
+    this.prev = new Prev(
+      'Наталья Потехина',
+      'SIS.Angular.2018'
+  );
+  }
 
   ngOnInit() {
   }

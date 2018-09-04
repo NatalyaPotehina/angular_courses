@@ -1,0 +1,34 @@
+.summerCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  text-align: center;
+  display: inline-block;
+  font-size: 2em;
+  margin-right: 15px;
+}
+div {
+  font-size: 12px;
+  display: inline-block;
+
+}
+.time {
+  background-color: #F5F5F5;
+  padding: 5px;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.depart {
+  width: 35px;
+  text-align: center;
+}
+.value {
+  font-size: 2em;
+}
+.units {
+  font-size: 10px;
+}
