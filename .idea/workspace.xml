@@ -384,11 +384,11 @@
       <path value="$PROJECT_DIR$/node_modules/wrappy/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="605" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1196" />
-    <option name="height" value="671" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
